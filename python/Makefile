@@ -3,13 +3,13 @@ all: install
 sources:
 	bash bin/grpc.sh
 
-install:
+install: sources
 	bash bin/install.sh
 
 clean: clean_sources uninstall
 
 clean_sources:
-	rm -r fashion_contract
+	rm -r outfit_tagging
 
 uninstall:
-	pip uninstall -y fashion_contract
+	pip uninstall -y outfit-tagging-interface
