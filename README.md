@@ -66,4 +66,4 @@ The project [service proto file](proto/outfit_tagging/interface/service.proto) c
 
 ## gRPC Framework
 
-This project is built with the [gRPC framework](https://grpc.io), from google, which offers a stable development platform for efficient rpc calls, with multiple supported languages.
+This project is built with the [gRPC framework](https://grpc.io), which offers a stable development platform for efficient rpc calls, with multiple supported languages.
