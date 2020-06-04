@@ -26,7 +26,7 @@ This project offers a python package with the gRPC generated sources. The packag
  $ cd python
  ```
 
- * Install the package:
+ * Install the interface package *(This step will also install the grpcio-tools package to generate the gRPC code)*:
 
  ```
  $ make
@@ -36,6 +36,12 @@ This project offers a python package with the gRPC generated sources. The packag
 
  ```
  $ make clean_sources
+ ```
+
+ * Remove the grpcio-tools package *(The package is only used to generate the sources and can now be deleted)*:
+
+ ```
+ $ make clean_tools
  ```
 
 #### Uninstall
@@ -54,7 +60,7 @@ The package can be uninstalled by execution one of the following options:
  $ make uninstall
  ```
 
-### Compilation with proto compiler
+### Proto compiler
 
 The project [service proto file](proto/outfit_tagging/interface/service.proto) can also be downloaded and manually compiled with the proto compiler for any supported language.
 

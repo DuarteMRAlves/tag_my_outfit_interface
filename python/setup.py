@@ -6,5 +6,5 @@ setuptools.setup(
     packages=setuptools.find_namespace_packages(include=['outfit_tagging.*']),
     version='0.0.1',
     python_requires='>=3.6',
-    install_requires=['grpcio-tools>=1.16.1']
+    install_requires=['grpcio>=1.16.1']
 )
