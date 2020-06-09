@@ -14,10 +14,10 @@ This interface is implemented by a gRPC server with the service above mentioned 
 
 This project offers a python package with the gRPC generated sources. The package can be installed locally by executing the following steps:
 
- * Clone the github repository:
+ * Clone the github repository *(Specific versions are marked by tags)*:
 
  ```
- $ git clone -b v0.0.1 https://github.com/DuarteMRAlves/tag_my_outfit_interface.git
+ $ git clone https://github.com/sipg-isr/tag_my_outfit_interface.git
  ```
 
  * Inside the project folder, navigate to the python folder:
