@@ -6,13 +6,19 @@ This project defines the gRPC interface for the Tag My Outfit Service. The servi
 
 This interface is implemented by a gRPC server with the service above mentioned and can be used by the clients to communicate with such server.
 
+## Technologies
+
+ * [gRPC](https://grpc.io)
+
+ * [Python](https://www.python.org)
+
 ## Usage
 
 ### Python package
 
 #### Install
 
-This project offers a python package with the gRPC generated sources. The package can be installed locally by executing the following steps:
+This project offers a python package with the gRPC generated sources. The package can be locally installed by executing the following steps:
 
  * Clone the github repository *(Specific versions are marked by tags)*:
 
@@ -64,6 +70,6 @@ The package can be uninstalled by execution one of the following options:
 
 The project [service proto file](proto/outfit_tagging/interface/service.proto) can also be downloaded and manually compiled with the proto compiler for any supported language.
 
-## gRPC Framework
+## License
 
-This project is built with the [gRPC framework](https://grpc.io), which offers a stable development platform for efficient rpc calls, with multiple supported languages.
+This project is released under the [MIT License](LICENSE.md).
